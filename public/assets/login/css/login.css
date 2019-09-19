@@ -1,0 +1,128 @@
+/**
+ * Unicorn Admin Template
+ * Diablo9983 -> diablo9983@gmail.com
+**/
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+body {
+	background-color: #999;
+    padding: 0;
+    margin: 0;
+}
+
+#logo, #loginbox {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#logo {
+    margin-right: 10px;
+    height: 50px;
+    width: 30px;
+}
+.logo-box{
+    color: snow;
+    margin-left: 43%;
+    box-shadow: 1px snow  ;
+    font-weight: bold;
+
+}
+
+#loginbox {
+    margin-top: 50px;
+    height: 190px;
+	background: #ffffff;
+    box-shadow: 0 0 2px #fff;
+    border-radius: 7px;
+    overflow: hidden !important;
+    text-align: left;
+    position: relative;   
+}
+
+#loginbox form{
+	width:100%;
+	height:100%;
+	position:absolute;
+    margin-top: 20px;
+	top:0;
+	left:0;
+}
+#loginbox p {
+margin-top: 20px;
+margin-left: 30px;
+padding: 0 20px;
+}
+
+#loginbox .input-group  {
+margin: 10px 60px 17px 60px;
+
+}
+#loginbox .form-actions .pull-right {
+	margin-right: 20px;
+
+}
+
+#loginbox form#loginform {
+	z-index: 200;
+}
+
+#loginbox form#recoverform {
+	z-index: 100;
+	opacity: 0;
+    display:none;
+}
+
+#loginbox .input-group-addon {
+    background:#d9edf7;
+
+}
+#loginbox .form-actions {
+background:#d9edf7;
+    height: 60px;
+}
+
+#loginbox  .btn{
+    background-color: #265a88;
+    background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#66afe9), to(#265a88));
+    background-image: -webkit-linear-gradient(top, #66afe9 0%, #265a88 100%);
+    background-image: -moz-linear-gradient(top, #66afe9 0%, #265a88 100%);
+    background-image: -ms-linear-gradient(top, #66afe9 0%, #265a88 100%);
+    background-image: -o-linear-gradient(top, #66afe9 0%, #265a88 100%);
+    background-image: linear-gradient(top, #66afe9 0%, #265a88 100%);
+
+}
+#loginbox  .btn:hover{
+    background-color: #265a88;
+    background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#66afe9), to(#265a88));
+    background-image: -webkit-linear-gradient(bottom, #66afe9 0%, #265a88 100%);
+    background-image: -moz-linear-gradient(bottom, #66afe9 0%, #265a88 100%);
+    background-image: -ms-linear-gradient(bottom, #66afe9 0%, #265a88 100%);
+    background-image: -o-linear-gradient(bottom, #66afe9 0%, #265a88 100%);
+    background-image: linear-gradient(bottom, #66afe9 0%, #265a88 100%);
+
+}
+
+.icono{
+    background: #dddddd;
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+}
+
+
+@media (max-width: 480px){
+    #logo, #loginbox {
+        width: 80%; 
+    }    
+}
+.logo-box h2
+{
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
